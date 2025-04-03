@@ -69,12 +69,15 @@ for project_info in project_info_arr:
 projects_arr.sort(key=lambda project: project["project_name"].lower())
 
 # print the project names and their lines of code in csv format
-print_csv_format = False
+print_csv_format = True
 if (print_csv_format):
     print("\n\n")
+    print("Printing all projects and their lines of code in CSV format")
+    print("--------------------------------------------------")
     print("Project-Name, Project-Key, Lines-of-Code")
     for project in projects_arr:
         print(f"{project['project_name']}, {project['project_key']}, {project['ncloc']}")
+    print("--------------------------------------------------")
     print("\n\n")
 
 # print the total lines of code for all projects
