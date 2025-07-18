@@ -4,6 +4,10 @@ This Python application retrieves all project keys from a SonarQube instance and
 
 **Note:** This script should be run by an administrator whose user token has access to all projects in the SonarQube instance to ensure accurate results.
 
+## Legal Disclaimer
+
+**Important Notice:** This tool is designed to provide quick estimates and does not guarantee accuracy for commercial or production use. If further accuracy is needed, please use industry standard tools. This tool is provided for convenience purposes only.
+
 ## Prerequisites
 
 - Python 3.9 or higher (if running the script directly)
